@@ -43,3 +43,11 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+#zebraTable:nth-child(even) {
+    background-color: rgba(45, 117, 126, 0.829);
+}
+
+#zebraTable:nth-child(odd) {
+    background-color: rgba(255, 68, 0, 0.281);
+}

@@ -7,7 +7,7 @@
         <th>Orbit Type</th>
         <th>Launch Dates</th>
     </tr>
-    <tr *ngFor="let sat of satellites">
+    <tr id="zebraTable" *ngFor="let sat of satellites">
         <td>{{sat.name}}</td>
         <td>{{sat.orbitType}}</td>
         <td [class.warning]="sat.shouldShowWarning()">{{sat.type}}</td>
